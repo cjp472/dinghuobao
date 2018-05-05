@@ -1,0 +1,72 @@
+
+
+*{margin:0; padding:0;}
+html,body{font-size:14px; font-family:"Microsoft Yahei","simsun","arial"; color:#323232; background:#fff; width:100%;}
+
+img{border:none;}
+/*清楚浮动*/
+.clearfix:after{content:""; display:block; clear:both; height:0; line-height:0; visibility:hidden;}
+.clearfix{zoom:1;}
+img { border:none;}
+i,b{ font-style:normal;}
+input{ outline: none;font-family:"Microsoft Yahei";}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.wrapper{ min-width:1200px;width:1200px;margin:0 auto;}
+.text_center{ text-align:center;}
+
+.goods_floorone {
+    background: #f9f9f9;
+    margin-top: 20px;
+    padding: 26px 0;
+}
+.goods_floorone
+ .floor_logo {
+    padding-left: 34px;
+}
+.floor_logo dl {
+    width: 410px;
+}
+.floor_logo dt {
+    float: left;
+    width: 80px;
+}
+.floor_logo dt img {
+    float: left;
+    width: 80px;
+    max-height: 80px;
+}
+.floor_logo dd.dd1 {
+    color: #323232;
+    font-size: 16px;
+}
+.floor_logo dd {
+    float: left;
+    width: 300px;
+    padding-left: 24px;
+}
+
+
+.goods_floorone .evaluate {
+    font-size: 14px;
+}
+.goods_floorone .evaluate .p1 span {
+    color: #999;
+    margin-right: 60px;
+}
+.goods_floorone .evaluate .p2 {
+    margin-top: 30px;
+}
+.goods_floorone .evaluate .p2 span {
+    padding-right: 40px;
+}
+
+.check_input{text-align: right;margin-top: 30px;}
+.check_input input.text{
+	height: 28px;line-height: 28px;font-size: 12px;border:1px solid #e4e4e4;
+	text-indent: 6px;width: 160px;margin-right:10px;
+}
+.check_input input.button{background: #e4e4e4;border:none;font-size: 14px;
+	height: 28px;padding: 0 10px;border-radius: 4px;cursor: pointer;
+}

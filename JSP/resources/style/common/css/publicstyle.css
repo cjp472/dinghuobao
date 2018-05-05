@@ -1,0 +1,190 @@
+/*全局属性*/
+body,html {font-size:12px; }
+a {color:#333;}
+a:hover {color:#06C; text-decoration:none}
+ul,li {list-style:none; margin:0; padding:0;}
+/*公共样式*/
+.warp {width:960px; margin-left:auto; margin-right:auto;}
+.sep10{height:10px; clear:both;}
+.sep5{height:5px; clear:both;}
+.headtitle { line-height:35px; height:35px; border-bottom:1px solid #496688; margin-right:20px;}
+.headtitle h3 { font-weight:bold; font-size:16px;}
+.box {}
+.box .boxhead {height:25px; line-height:25px; background-color:#ECECEC; padding-left:10px; padding-right:10px}
+.box .boxhead h3 { float:left; font-weight: bold; font-size:14px;}
+.box .boxhead .more { float:right}
+.box .boxpic {margin-top:10px; height:90px; padding:10px;}
+.box .boxpic .pic { float:left; width:120px;}
+.box .boxpic .info { float:left; width:200px;}
+.box .boxpic .info .title { font-weight:bold; line-height:25px; height:25px;}
+.box .boxpic .info p { line-height:22px;}
+.box .boxlist {padding:10px;}
+.box .boxlist ul {}
+.box .boxlist ul li { line-height:30px; height:30px;}
+.box .boxlist ul li .line { color:#CCC; padding-right:5px; float:left;}
+.box .boxlist ul li .num { float:left; margin-right:10px; border:1px solid #ccc; line-height:12px; height:12px; margin-top:6px; padding-left:3px; padding-right:3px;}
+.box .boxlist ul li .title{ float:left;}
+.box .boxlist ul li .time { float:right; color:#999}
+.box .boxcontent { padding:10px; line-height:22px;}
+/*主页面框架*/
+#central { width:960px; margin-left:auto; margin-right:auto;margin-top:20px; }
+
+#sidebar {width:230px;}
+.mainhead {height: 340px;}
+/*头部*/
+#head {background-color:#F1F1F1; padding-top:20px;}
+#head #logo { background-image:url(../images/logo.gif); background-repeat:no-repeat; width:350px; height:45px;}
+#head #logo h1 {text-indent:-2000px;}
+#head #logo h1 a {display:block; width:350px; height:45px;}
+/*底部*/
+#foot { border-top:1px solid #ddd; margin-top:20px; padding-top:10px; padding-bottom:20px;}
+#foot .menu {margin-left:auto; margin-right:auto; height:30px; text-align:center}
+#foot .menu  {color: #999;}
+#foot .menu a {color: #999; margin-right:10px; margin-left:10px;}
+#foot .menu a:hover {color:#06C;}
+#foot #copyright { line-height:30px; text-align:center; color:#999}
+/*导航*/
+#head #nav {background-color:#3e4e68; height:40px; margin-top:20px; position:relative;}
+#head #nav ul {}
+#head #nav ul li {float:left; width:130px;  }
+#head #nav ul li .title a {color:#fff; display:block; width:130px; text-align:center; line-height:40px; text-decoration:none; font-size:16px; color:#fff;}
+#head #nav ul li .title a:hover { background-color:#475a79;}
+#head #nav ul .current .title a { background-color:#496688 !important;}
+#head #nav ul li .nav_menu {height:30px; font-size:14px; position:absolute!important; display:none; overflow:hidden}
+#head #nav ul li .nav_menu li {float:left !important;line-height:30px; color:#ccc; width:auto !important}
+#head #nav ul li .nav_menu li a {padding-left:20px; height:29px; padding-right:20px; text-decoration:none; display:block;}
+#head #nav ul li .nav_menu li a:hover {border-bottom:1px solid #475a79; }
+#head #nav ul li .nav_menu .line {}
+#head #nav ul li .menucur {display:block}
+#head #navmenu {height:30px; background-color:#F1F1F1; }
+/*搜索*/
+#search {background-color:#3e4e68;width:365px;height:30px;padding:2px; margin-top:8px; }
+#search select { vertical-align:top; border:none; width:90px; margin-top:7px;}
+#search .select {width:95px;border:0px; float:left;background-color:#fff; display:block; height:30px; overflow:hidden; padding-left:5px;  margin-right:2px;}
+#search input { width:195px;height:30px; line-height:30px;border:0px; float:left;}
+#search button { width:60px; height:30px; line-height:30px; border:0px;background-color:#3e4e68; color:#fff;float:left;}
+
+/*幻灯片*/
+.slideshow { width:300px; height:330px; border:1px solid #ccc; overflow: hidden; position: relative; float:left; }
+.slideshow h3 { color: #EEE; font-size: 12px; font-weight: 700; line-height: 26px; position: absolute; text-indent: 2%; width: 100%; z-index: 102; margin: 0; }
+.slideshow h3 a { color: #FFF; text-decoration: none; }
+.slideshow h3 a:hover { color: #F60; text-decoration: underline; }
+.slideshow li img { border: 0; vertical-align: top; }
+.slideshow ul { list-style-type: none; margin: 0; padding: 0; }
+.slideshow .smallslider-btns { position: absolute; z-index: 103; }
+.slideshow .smallslider-btns .current-btn { background-color: #3e4e68; border: 1px solid #496688; color: #FFF; font-size: 14px; font-weight: 700; }
+.slideshow .smallslider-btns span { background-color: #FFF; border: 1px solid #DCDCDC; color: #496688; cursor: pointer; float: left; font-size: 12px; height: 16px; line-height: 16px; text-align: center; width: 16px; }
+.slideshow .smallslider-lay { background-color: #000; height: 26px; position: absolute; width: 100%; z-index: 101; }
+/*头条*/
+.mainhead .indexhot { margin-left:20px; float:left; width:390px;}
+.mainhead .indexhot .hotbox { border-bottom:1px dotted #ccc; padding-bottom:10px;}
+.mainhead .indexhot .hotbox h2 { font-size: 16px; font-weight: bold; height: 28px;}
+.mainhead .indexhot .hotbox p {line-height: 22px}
+.mainhead .hotlist {}
+.mainhead .hotlist ul {}
+.mainhead .hotlist ul li {float:left; width:50%; line-height:25px; height:25px; color:#CCC}
+.mainhead .hotlist ul li span { padding-right:5px;}
+/*图片展示*/
+.piclist { background-color: #F4F4F4; padding-top: 20px; padding-bottom: 20px; padding-left:10px; padding-right:10px; margin-top:20px; margin-right:20px;}
+.piclist ul {}
+.piclist ul li { float:left; width:170px;}
+.piclist ul li .pic { width:155px; margin-left:auto; margin-right:auto}
+.piclist ul li .pic img { width:155px; height:110px; }
+.piclist ul li .title { width:155px; line-height:22px; margin-left:auto; margin-right:auto; margin-top:5px; height:25px; overflow:hidden;}
+/*栏目列表*/
+#classbox { padding-top:10px;}
+#classbox .box { float:left; width:345px; margin-right:20px; display:inline; height:410px;}
+/*边栏定义*/
+#sidebar .box { border:1px solid #ddd; margin-bottom:20px;}
+#sidebar .box .boxhead{height:30px; line-height:30px;}
+#sidebar .box .boxlist ul li { line-height:35px; height:35px; border-bottom:1px dotted #ddd} 
+#sidebar .box .boxlist ul li .num { margin-top:12px;}
+/*面包屑导航*/
+#pagenav { background-color: #F4F4F4; line-height:30px; hanging-punctuation:30px; padding-left:10px; padding-right:10px; margin-bottom:10px; margin-right:20px;}
+/*列表页*/
+.pagelist { margin-right:20px;  border:1px solid #ddd; }
+.pagelist .boxhead{height:30px; line-height:30px;}
+.pagelist .boxlist ul { padding-bottom:20px;}
+.pagelist .boxlist ul li { line-height:35px !important; height:35px !important; border-bottom:1px dotted #ddd}
+.pagelist .boxlist ul li .title{ font-size:14px;}
+.pagelist .boxlist ul li .time{}
+/*图片列表页*/
+.pagepiclist { margin-right:20px;  border:1px solid #ddd; }
+.pagepiclist .boxhead{height:30px; line-height:30px;}
+.pagepiclist .boxlist { padding-right:0px;}
+.pagepiclist .boxlist ul { padding-bottom:20px;}
+.pagepiclist .boxlist ul li { float:left; height:150px; margin-top:10px; margin-right:9px; width:165px;}
+.pagepiclist .boxlist ul li img{ font-size:14px;width:165px;}
+.pagepiclist .boxlist ul li .title{ float:none;}
+.pagepiclist .boxlist ul li .time{}
+/*扩展列表页*/
+.pageexpand { margin-right:20px;  border:1px solid #ddd; }
+.pageexpand .boxhead{height:30px; line-height:30px;}
+.pageexpand .boxlist ul li { height:90px; float:none; border-bottom:1px dotted #ddd}
+.pageexpand .boxlist ul li .pic { float:left;}
+.pageexpand .boxlist ul li .pic img { width:110px; height:80px;}
+.pageexpand .boxlist ul li .info { float:left; margin-left:20px;}
+.pageexpand .boxlist ul li .info .title { line-height:25px; float:none; font-size:14px; font-weight:bold}
+.pageexpand .boxlist ul li .info .description { line-height:25px;}
+.pageexpand .boxlist ul li .info .ext{ color: #999; line-height:22px; float:none}
+/*内容页*/
+.pagecontent {margin-right:20px; }
+.pagecontent .boxcontent h1{height:45px;  font-size:16px; font-weight:bold; text-align:center}
+.pagecontent .boxcontent .info { border-top:1px dotted #ccc; text-align:center}
+.pagecontent .boxcontent .content { font-size:14px; line-height:35px; margin-top:10px;}
+.pagecontent .boxhead {margin-top:20px;}
+.pagecontent .boxhead h3 { font-size:12px; font-weight:normal;}
+.pagecontent .boxlist {}
+.pagecontent .boxlist li { float:left; width:50%;}
+.pagecontent .boxlist li .line { padding-right:10px !important;}
+.pagecontent .updown { line-height:25px; height:25px; padding-left:10px; padding-right:10px; color:#666;}
+.pagecontent .updown a {color:#666}
+.pagecontent .updown .previous { float:left;}
+.pagecontent .updown .next { float:right}
+/*扩展模型内容页*/
+.contentexpand { padding:10px; height:310px;}
+.contentexpand .imagebox {float:left; width:330px; border:1px solid #ddd;}
+.contentexpand .imagebox .pic { width: 320px;height: 250px;margin-right: auto;margin-left: auto;}
+.contentexpand .imagebox .tabs { padding-left:5px;height:75px;}
+.contentexpand .imagebox .tabs a { display:block; float:left; margin-right:5px; padding:2px; border:1px solid #ddd}
+.contentexpand .imagebox .tabs img { width:70px; height:60px;}
+.contentexpand .info {float:left; margin-left:10px; width:340px;}
+.contentexpand .info .title { font-size:14px; height:35px; border-bottom:1px dotted #ddd}
+.contentexpand .info .title h1 { font-weight:bold}
+.contentexpand .info .description { font-size:12px; line-height:22px; padding-top:10px; color:#666;border-bottom:1px dotted #ddd; padding-bottom:10px;}
+.contentexpand .info .list {}
+.contentexpand .info .list ul {}
+.contentexpand .info .list ul li { line-height:35px; height:35px;border-bottom:1px dotted #ddd}
+.contentexpand .info .list ul li .name { padding-right:10px; color:#666}
+/*分页样式*/
+.pagenum {padding:20px; text-align:center}
+.pagenum a {border: 1px solid #FFFFFF;color: #999999;margin: 0 5px;padding: 5px 0; }
+.pagenum a:hover { color: #3e4e68 !important;}
+.pagenum .current {padding:1px 5px;border:1px solid #fff;background:#CC0000;color:#fff;margin:0 2px;}
+.pagenum .firstPage {background-color: #F8F8F8; border: 1px solid #D9D9D9; color: #999999; height: 19px; line-height: 19px; padding: 3px 10px; width: 39px;}
+.pagenum .pages{padding:1px 5px;border:1px solid #ccc;margin:0 2px;}
+.pagenum .nextPage{background-color: #F8F8F8; border: 1px solid #D9D9D9; color: #999999; height: 19px; line-height: 19px; padding: 3px 10px; width: 39px;}
+.pagenum .prePage {background-color: #F8F8F8; border: 1px solid #D9D9D9; color: #999999; height: 19px; line-height: 19px; padding: 3px 10px; width: 39px;}
+.pagenum .lastPage{background-color: #F8F8F8; border: 1px solid #D9D9D9; color: #999999; height: 19px; line-height: 19px; padding: 3px 10px; width: 39px;}
+/*404页面*/
+.error404 { background-image: url(../images/404bg.jpg); background-repeat: no-repeat; width: 979px; height: 400px; margin-right: auto; margin-left: 0px; margin-top: 150px;background-color: white }
+.error404 .taglist { padding-top: 100px; padding-left: 300px;}
+.error404 .taglist a{color:#666}
+.error404 .home { color:#3e4e68; padding-top: 5px; padding-left: 300px; font-size:14px; font-weight:bold}
+.error404 .home a {color:#3e4e68; }
+/*留言板*/
+.guestbook {padding:20px}
+.guestbook .list { border-bottom:1px dotted #ccc; padding-bottom:10px;}
+.guestbook .list .content { font-size:14px; line-height:25px; padding-bottom:10px; }
+.guestbook .list .content .reply {border:1px solid #ddd; line-height:25px; padding-left:5px; padding-right:5px; margin-top:10px; background-color:#f4f4f4}
+.guestbook .list .info{color:#666; line-height:25px;}
+.guestbook .formsub { padding:10px;}
+.guestbook .formsub h5 { line-height:30px; font-size:14px; font-weight:bold}
+.guestbook .formsub .guest_post { padding-top:10px;}
+.guestbook .formsub .guest_post .guest_post_hr { line-height:40px; height:40px;}
+.guestbook .formsub .guest_post .guest_post_text { border:1px solid #ccc;margin-left:10px; line-height:25px; height:25px; width:250px;}
+.guestbook .formsub .guest_post .guest_post_content { border:1px solid #ccc; height:100px; width:100%; margin-top:10px;}
+.guestbook .formsub .subdiv { margin-top:10px;}
+.guestbook .formsub .subdiv .button { border:1px solid #ddd; width:50px; line-height:27px; height:27px; vertical-align: top}
+/*newscontent*/
+.news_content{}

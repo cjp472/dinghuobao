@@ -1,0 +1,285 @@
+.threeinline {
+	font-size: 12px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	width: 33%;
+	padding: 20px;
+}
+
+.moneyblock {
+	border: solid 1px #E7E7E7;
+	margin: 15px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.moneyblock ul {
+	white-space: nowrap;
+	list-style: none outside none;
+}
+
+.moneyblock li {
+	font-size: 12px;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-align: center;
+	display: inline-block;
+	/*IE7*/
+	*display: inline;
+	width: 33%;
+	border-left: solid 1px #E7E7E7;
+	/*IE7*/
+	*zoom: 1;
+}
+
+.moneyblock li a {
+	display: block;
+	height: 120px;
+	padding: 10px 0;
+}
+
+.moneyblock a:link,a:visited,a:active {
+	text-decoration: none;
+}
+
+.moneyblock li h5 {
+	color: #666;
+}
+
+.moneyblock .icon {
+	background: url(../images/member_pics.png) no-repeat scroll 0% 0%
+		transparent;
+	display: inline-block;
+	/*IE7*/
+	*display: inline;
+	width: 32px;
+	height: 32px;
+	margin: 5px auto;
+	/*IE7*/
+	*zoom: 1;
+}
+
+#pre-deposit .icon {
+	background-position: -240px 0;
+}
+
+#voucher .icon {
+	background-position: -240px 0;
+}
+
+#points .icon {
+	background-position: -310px 0px;
+}
+
+.moneyblock li .value {
+	font-weight: 600;
+	line-height: 28px;
+	color: #999;
+	display: block;
+	clear: both;
+}
+
+.moneyblock li .value em {
+	font: 24px/28px Arial;
+	color: #666;
+	vertical-align: bottom;
+	margin: 0 4px;
+}
+
+.transaction {
+	height: 30px;
+	background-color: #FEFBF8;
+	margin: 15px;
+	padding: 20px;
+}
+
+.transaction h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+	display: inline-block;
+	/*IE7*/
+	*display: inline;
+	height: 16px;
+	padding-left: 5px;
+	border-left: 3px solid #FD6760;
+}
+
+.transaction ul {
+	font-size: 0px;
+	vertical-align: top;
+	display: inline-block;
+	/*IE7*/
+	*display: inline;
+	margin-left: 80px;
+	overflow: hidden;
+}
+
+.transaction ul li {
+	font-size: 12px;
+	line-height: 14px;
+	vertical-align: middle;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	/*IE7*/
+	*display: inline;
+	height: 14px;
+	padding: 0px 20px;
+	margin-left: -1px;
+	border-left: 1px solid #E7E7E7;
+}
+
+.inputtable {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.inputtable tr {
+	border-bottom: dotted 1px #E6E6E6;
+	line-height: 20px;
+	clear: both;
+	overflow: hidden;
+}
+
+.inputtable td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none
+}
+
+.inputtable td input {
+	height: 25px;
+}
+
+.inputtable .tdtitle {
+	width: 150px;
+	text-align: right;
+}
+
+.inputtable .tdtext {
+	padding-left: 10px;
+}
+
+.blocktitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.friend-list {
+	width: 90%;
+	list-style: none outside none;
+	font-size: 0px;
+	*word-spacing: -1px; /*IE6、7*/
+}
+
+.friend-list li {
+	font-size: 12px;
+	line-height: 20px;
+	background-color: #FAFAFA;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	*display: inline; /*IE7*/
+	width: 30%;
+	height: 100px;
+	border: solid 1px #E7E7E7;
+	margin: -1px;
+	position: relative;
+	z-index: 1;
+	*zoom: 1; /*IE7*/
+}
+
+.friend-list .head_img {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	*display: block:;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	max-width: 60px;
+	max-height: 60px;
+	margin-top: expression(60-this .   height/ 2);
+	*margin-top: expression(30-this .   height/ 2) /*IE6,7*/;
+}
+
+a.btn-mini {
+	font: normal 12px/20px arial;
+	color: #777;
+	background-color: #F5F5F5;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	*display: inline; /*IE7*/
+	height: 20px;
+	padding: 0 10px;
+	margin-right: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+	cursor: pointer;
+}
+
+a.btn-green,.table-handle a.btn-green:hover {
+	background-color: #5BB75B;
+	border-color: #52A452 #52A452 #448944 #52A452;
+	color: #fff !important;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.f_search {
+	width: 90%;
+	display: inline-block;
+	*display: inline; /*IE7*/
+	border: 0;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.f_search div {
+	height: 35px;
+	width: 100%;
+	text-align: left;
+}
+
+.tiaojian input {
+	height: 22px;
+	border: 1px solid #D3D1D1;
+	line-height: 22px;
+	padding-left: 5px;
+}
+
+.tiaojian select {
+	height: 22px;
+	border: 1px solid #D3D1D1;
+	line-height: 22px;
+	padding-left: 5px;
+}
+
+.button_do {
+	margin: 8px;
+	text-decoration: none;
+	font-weight: lighter;
+	line-height: 1;
+	border: 0px solid #429DB8;
+	cursor: pointer;
+	padding: 8px 8px;
+	background: rgb(227, 57, 60);
+	color: #FFF;
+}
+
+.button_do:hover {
+	background: rgb(223, 55, 20);
+	color: #fff;
+}
+
+.sens_a {
+	color: #36C;
+	margin-left: 20px;
+}

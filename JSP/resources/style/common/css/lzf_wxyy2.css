@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+input{
+	border:1px #d3d3d3 solid;
+}
+.lzf_wxyy2{
+	overflow:hidden;
+	background:#f4f4f4;
+	padding:20px 0px;
+}
+.lw{
+	width:1000px;
+	overflow:hidden;
+	margin:0px auto;
+}
+.lw .lztab{
+	margin-bottom:20px;
+}
+.w_tit{
+	height:40px;
+	line-height:40px;
+	background:#fcfcfc;
+	padding-left:10px;
+	font-size:16px;
+	border-bottom:1px  #f4f4f4 solid;
+}
+
+.w_mian{
+	overflow:hidden;
+	background:#ffffff;
+	padding:40px;
+	position:relative;
+}
+
+.lw .lw_list{
+	font-size:14px;
+}
+
+.lw .lw_list td{
+	padding:14px 0px;
+}
+.lw .lw_list .ltext{
+	width:390px;
+	height:32px;
+	line-height:32px;
+	
+	padding-left:4px;
+}
+.lw .lw_list .l_tit{
+	text-align:right;
+}
+
+.lw .lw_list  select{
+	padding:6px 0px;
+	margin-right:10px;
+}
+.lw .lw_list .yzm_text{
+	height:32px;
+	position:relative;
+}
+.lw .lw_list .yzm_text input{
+	width:100px;
+	height:32px;
+	line-height:32px;
+}
+.lw .lw_list .yzm_text div{
+	position:absolute;
+	left:110px;
+	top:0px;
+}
+.lw .lw_list .yzm_text div img{
+	width:60px;
+	height:30px;
+	border:1px #dadada solid;
+}
+.lw .lw_list .yzm_text div a{
+	position:absolute;
+	left:80px;
+	top:10px;
+	display:block;
+	white-space:nowrap;
+	font-size:12px;
+}
+
+.lw .lw_list .lsub_but{
+	display:block;
+	font-size:16px;
+	width:300px;
+	height:38px;
+	line-height:38px;
+	background:#ff8400;
+	color:#FFF;
+	border-radius:3px;
+	text-align:center;
+	margin-top:20px;
+	border:none;
+	cursor:pointer;
+}
+.lw .lts{
+	width:300px;
+	height:200px;
+	-border:1px red solid;
+	position:absolute;
+	right:60px;
+	top:200px;
+	font-size:14px;
+	line-height:24px;
+	text-indent:2em;
+}
+
+
+
+
+
+
+
+
+
+/*流程**/
+.wz_mian{
+    overflow:hidden;
+	background:#ffffff;
+	padding:20px 30px;
+	position:relative;
+}
+.wz_mian .lc_img{
+	height:90px;
+	-border:1px red solid;
+	overflow:hidden;
+}
+.wz_mian ul{
+	overflow:hidden;
+	overflow:hidden;
+	padding:10px 0px;
+}
+.wz_mian ul li{
+	width:25%;
+	float:left;
+}
+.wz_mian ul li h3{
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}

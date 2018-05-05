@@ -1,0 +1,84 @@
+@charset "utf-8";
+*{margin:0;padding:0;border:0;}
+body {
+ font-family: arial, 宋体, serif;
+        font-size:12px;
+}
+
+input.sText {
+  border: 1px solid #E4E4E4;
+}
+select.www_zzjs_net {
+  border: 1px solid #E4E4E4;
+}
+select.smalllocation {
+  border: 1px solid #E4E4E4;
+}
+select.saler {
+  border: 1px solid #E4E4E4;
+}
+
+#nav {
+  line-height: 34px;  list-style-type: none; 
+  float:left;text-decoration:none !important;display:block;background:url(../img/index_t1_x.jpg) no-repeat right top;
+}
+
+#nav a {
+ display: block; width: 100px; text-align:center;
+}
+
+
+#nav a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav a:hover  {
+ color:#FFF;text-decoration:none;font-weight:bold;
+}
+#nav a:link {
+ color:#333333;
+}
+
+#nav li {
+ float: left; width: 100px;
+}
+#nav li a:hover{
+color:#fff !important;background:url(../img/index_t1_c3.jpg) repeat-x;
+}
+#nav li ul {
+ line-height: 27px;  list-style-type: none;text-align:left;
+width: 117px; position: relative;
+ left: -999em; 
+}
+#nav li ul li{
+ float: left; width: 114px;
+ background: #F6F6F6;
+}
+
+
+#nav li ul a{
+ display: block; width: 75px;text-align:left;
+}
+
+#nav li ul a:link  {
+ color:#666; text-decoration:none;
+}
+#nav li ul a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav li ul a:hover  {
+color:#fff !important;background:url(../img/index_t1_c3.jpg) repeat-x;
+
+}
+
+.topr {float:right;width:auto;PADDING:5px 35px 0 0;}
+
+#nav li:hover ul {
+ left: auto;
+}
+#nav li.sfhover ul {
+ left: auto;
+}
+#content {
+ clear: left;
+}
+

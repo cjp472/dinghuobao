@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ldpxq{
+	width:1000px;
+	overflow:hidden;
+	-border:1px red solid;
+	margin:14px auto;
+}
+.lxq_left{
+	width:210px;
+	overflow:hidden;
+	float:left;
+}
+.j_box{
+	overflow:hidden;
+	border:1px #dddddd solid;
+	margin:0px 0px;
+}
+.j_box .j_title{
+	height:34px;
+	line-height:34px;
+	background:#f5f5f5;
+	padding-left:10px;
+}
+.j_box li{
+	height:70px;
+	border-bottom:1px #dddddd dashed;
+	overflow:hidden;
+	padding:12px 10px;
+}
+.j_box li .p_img{
+	width:75px;
+	/* height:60px; */height:75px;
+	margin-right:10px;
+	float:left;
+}
+.j_box li .p_img a{
+	display:block;
+	width:75px;
+	/* height:60px; */height:75px;
+	border:1px #ddd solid;
+	padding:1px;
+	overflow:hidden;
+} 
+.j_box li .p_img a:hover{
+   	border:1px #e4393c solid;
+}
+.j_box li .p_name{
+	width:100px;
+	height:34px;
+	float:left;
+	overflow:hidden;
+}
+.j_box li .p_want{
+	width:100px;
+	float:left;
+	margin-top:10px;
+}
+
+
+
+
+.lxq_right{
+	width:778px;
+	overflow:hidden;
+	float:right;
+	padding-bottom:30px;
+}
+.p_detail{
+	overflow:hidden;
+}
+.p_detail .p_img{
+	width:400px;
+	height:300px;
+	border:1px #ddd solid;
+	overflow:hidden;
+	float:left;
+}
+.p_detail .p_img img{
+	width:400px;
+	height:300px;
+}
+
+.detail_xq{
+	width:350px;
+	overflow:hidden;
+	float:right;
+}
+.detail_xq .p_name{
+	padding-bottom:10px;
+	font-size:16px;
+	border-bottom:1px #ddd solid;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+
+.detail_xq .lit{
+	padding:8px 0px;
+	overflow:hidden;
+}
+
+.detail_xq .p_xhjf strong{
+	font-size:16px;
+	color:#e3393c;
+
+}
+.detail_xq .p_xhjf a{
+	color:#005ea7;
+	margin-left:30px;
+}
+.detail_xq .p_stock span{
+	color:#e3393c;
+	padding-right:4px;
+}
+.detail_xq .p_duihuan a{
+	display:block;
+	width:120px;
+	height:36px;
+	text-align:center;
+	line-height:36px;
+	background:#e33a3c;
+	color:#FFF;
+	font-size:16px;
+	border-radius:3px;
+	margin:10px 0px;
+}
+
+
+
+.fx_de{
+	height:40px;
+	position:relative;
+	margin-top:10px;
+}
+.mtb{
+	width:776px;
+	height:40px;
+	background:#f9f9f9;
+	border:1px #dddddd solid;
+	font-size:14px;
+	position:absolute;
+	top:0px;
+}
+.mtb ul{
+	position:relative;
+	top:-1px;
+}
+.mtb li{
+	float:left;
+	height:42px;
+	line-height:42px;
+	padding:0px 20px;
+	border-right:1px #dddddd solid;
+	cursor:pointer;
+}
+.mtb li.current{
+	height:40px;
+	line-height:40px;
+	background:#FFF;
+	border-top:2px #e4393c solid;
+}
+
+
+.lpdm_de{
+	overflow:hidden;
+	display:none;
+	padding:20px;
+	text-align:left;
+}
+
+.fx_de_mi{
+	overflow:hidden;
+	border:1px #dddddd solid;
+	border-top:none;
+	background: #FFF;
+	padding:20px;
+}

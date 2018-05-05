@@ -1,0 +1,105 @@
+/*右侧跟随控制框*/
+.mod-fixed-console{
+    padding: 10px 0;
+}
+.mod-fixed-console.console-fixed{
+    position: fixed;
+    z-index: 999;
+    top:10px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
+}
+.mod-fixed-console .console-btn{
+    width: 210px;
+    height: 42px;
+    line-height: 42px;
+    background: #82c92f;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 3px solid #73af2c;
+    border-radius: 4px;
+    display: block;
+    margin:0 auto;
+    position: relative;
+}
+.mod-fixed-console .console-btn:hover{
+    text-decoration: none;
+}
+.mod-fixed-console .console-btn:active{
+    border-bottom: none;
+    margin-top: 3px;
+}
+.mod-fixed-console .console-btn.btn-disable:active,
+.mod-fixed-console .console-btn.btn-disable{
+    margin-top: 0;
+    border-bottom: none;
+    background: #669933;
+}
+.mod-fixed-console .console-btn svg{
+    width:30px;
+    height:40px;
+    display:inline-block;
+    margin-top:1px;
+    vertical-align: middle;
+}
+
+
+
+
+
+.mod-fixed-console .console-more{
+    padding-top:12px;
+}
+.mod-fixed-console .console-more a{
+    float: left;
+    width: 109px;
+    height: 16px;
+    line-height: 16px;
+    padding-top: 35px;
+    color:#d3d3d3;
+    font-size: 14px;
+    text-align: center;
+}
+.mod-fixed-console .console-more a:hover{
+    text-decoration: none;
+}
+.mod-fixed-console .console-more .console-split{
+    float: left;
+    width: 0;
+    border:none;
+    border-left: 1px solid #d3d3d3;
+    height: 56px;
+    margin:0;
+    padding:0;
+}
+.mod-fixed-console .console-more .console-comment{
+    background: url(../images/try_console_bg.png) no-repeat 40px 0;
+}
+.mod-fixed-console .console-more .console-comment:hover{
+    background-position: -60px 0;
+    color: #82c92f;
+}
+.mod-fixed-console .console-more .console-share{
+    background: url(../images/try_console_bg.png) no-repeat 40px -60px;
+}
+.mod-fixed-console .console-more .console-share:hover{
+    background-position: -60px -60px;
+    color: #82c92f;
+}
+.mod-fixed-console .console-more .console-praise{
+    background: url(../images/try_console_bg.png) no-repeat 40px -120px;
+}
+.mod-fixed-console .console-more .console-praise:hover{
+    background-position: -60px -120px;
+    color: #82c92f;
+}
+.mod-fixed-console .console-more .console-praise.praised{
+    cursor: default;
+}
+.mod-fixed-console .console-more .console-praise.praised:hover{
+    background-position: 40px -120px;
+    color: #d3d3d3;
+}
+
+
+

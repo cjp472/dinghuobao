@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+.lwarp{
+	overflow:hidden;
+	background:#f5f6f9;
+	padding:14px 0px;
+}
+.hot_main{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.hot_main ul{
+	width:1240px;
+	overflow:hidden;
+}
+.hot_main ul li{
+	width:293px;
+	height:340px;
+	position: relative;
+	float:left;
+	border-radius:4px;
+	margin:0px 10px 10px 0px;
+}
+
+.hot_main ul li .i_bg{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:#e9edef;
+	opacity:0.6;
+	filter:alpha(opacity:60);
+}
+.hot_main ul li .i_item{
+	width:274px;
+	height:322px;
+	border:1px #cfd5bb solid;
+	position:absolute;
+	left:8px;
+	top:8px;
+	z-index:2;
+	background:#fff9ef;
+	overflow:hidden;
+}
+.hot_main ul li .i_item:hover{
+	border:1px #e4393c solid;
+}
+.hot_main ul li .i_item .p_img{
+	height:180px;
+	background:#FFF;
+	overflow:hidden;
+}
+.hot_main ul li .i_item .p_img a{
+	display:block;
+	height:180px;
+}
+.hot_main ul li .i_item .p_img img{
+	display:block;
+	margin:0 auto;
+}
+.hot_main ul li .i_item .p_name{
+	margin:10px;
+	height:34px;
+	overflow:hidden;
+}
+.hot_main ul li .i_item .p_name a{
+	color:#666;
+} 
+
+.hot_main ul li .i_item .send{
+	margin:0px 10px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px #dadada dashed;
+	overflow:hidden;
+}
+.hot_main ul li .i_item .send strong{
+	width:150px;
+	font-size:26px;
+	overflow:hidden;
+	color:#e4393c;
+}
+.hot_main ul li .i_item .send span{
+	width:100px;
+   	display:inline-block;
+   	text-align:right;
+   	overflow:hidden;
+}
+.hot_main ul li .i_item .buy_name{
+	margin:10px;
+	height:20px;
+	overflow:hidden;
+}
+.hot_main ul li .i_item .buy_but{
+	margin:16px 10px;
+	height:30px;
+}
+.hot_main ul li .i_item .buy_but a{
+	padding:4px 10px;
+	background:#d50b3f;
+	color:#fff;
+	border-radius:3px;
+}
+
+
+.hot_main ul li .i_item .p_time{
+	position:absolute;
+	top:10px;
+	left:170px;
+	width:97px;
+	height:24px;
+}
+.hot_main ul li .i_item .zzqg{
+	background:url(../images/tttj.png) no-repeat left top;
+}
+.hot_main ul li .i_item .jjkq{
+	background:url(../images/tttj.png) no-repeat left -25px;
+}	
+
+.hot_main ul li .i_item .zzqg{
+	background:url(../images/tttj.png) no-repeat left top;
+}
+.hot_main ul li .i_item .yjqw{
+	background:url(../images/auctionbg.png) no-repeat;
+}
+
+
+
+
+
+
+#select{
+	width:1200px;
+	background:#fff;
+	margin:10px auto;
+	overflow:hidden;
+	border:1px #dddddd solid;
+}
+#select h1{
+	height:34px;
+	line-height:34px;
+	background:#f5f5f5;
+	padding-left:10px;
+}
+
+#select .i_attr{
+	width:auto;
+	overflow:hidden;
+	border-top:1px #dddddd solid;
+	padding:12px 0px;
+}
+#select .i_attr .a_key{
+	width:60px;
+	text-align: right;
+	line-height:25px;
+	font-size:14px;
+	font-weight:bold;
+}
+#select .i_attr .a_values{
+	width:1130px;
+	padding-bottom:4px;
+	overflow:hidden;
+}
+#select .i_attr .a_values li{
+	float:left;
+	height:20px;
+	padding-right:30px;
+	padding-top:5px;
+}
+#select .i_attr .a_values a{
+	color:#666666;
+	white-space:nowrap; 
+}
+#select .i_attr .a_values a.current{
+	background:#cf010e;
+	color:#fff;
+	padding:4px 10px;
+	border-radius:3px;	
+}

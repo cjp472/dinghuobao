@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.ft_beian{
+	overflow:hidden;
+	border-top:1px #d9d5d6 solid;
+}
+.ft_beian .ft_nav{
+	width:auto;
+	padding:20px 0px;
+	text-align:center;
+}
+.ft_beian .ft_nav a{
+	padding:0px 20px;
+	-background:url(../../../image/top_1.png) no-repeat  left center;
+}
+.ft_beian p{
+	padding-top:20px;
+}
+
+
+
+
+

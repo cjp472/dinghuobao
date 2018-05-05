@@ -1,0 +1,289 @@
+.AeroWindow {
+	position: fixed;
+	/*background: url(images/_bg.png);*/
+	overflow: hidden;
+	display: block;
+	width: auto;
+	height: auto;
+	/*-moz-border-radius: 15px;
+	border-radius: 15px;  
+	border-radius: 15px;  */
+}
+/*AeroDialog layout*/
+.tb_tl,.tb_tr,.tb_tipsbar_l,.tb_tipsbar_r,.tb_lm,.tb_rm,.tb_btnsbar_l,.tb_btnsbar_r,.tb_bl,.tb_br
+	{
+	background: url(../images/_bg.png) no-repeat;
+	_background-image: none
+}
+
+.AeroWindow table,.AeroWindow td,.AeroWindow ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.AeroWindow .tb-tl {
+	background: url(../images/_bg.png);
+	background-position: -28px -33px;
+	width: 13px;
+	height: 13px;
+}
+
+.AeroWindow .tb-tm {
+	background: url(../images/title_bottom.png) 0px 0px repeat-x;
+	height: 33px;
+	/*_background-image:none;*/
+}
+
+.AeroWindow .tb-tr {
+	background: url(../images/_bg.png);
+	width: 13px;
+	height: 13px;
+	background-position: -41px -33px;
+}
+
+.AeroWindow .tb-lm {
+	width: 13px;
+	background-position: left top;
+	background: url(../images/_bg.png);
+}
+
+.AeroWindow .tb-bl {
+	background: url(../images/_bg.png);
+	background-position: -28px -65px;
+	height: 13px;
+	width: 13px;
+}
+
+.AeroWindow .tb-rm {
+	background: url(../images/_bg.png);
+	background-position: -14px 0px;
+	width: 13px;
+}
+
+.AeroWindow .tb-br {
+	background: url(../images/_bg.png);
+	background-position: -41px -65px;
+	height: 13px;
+	width: 13px;
+}
+
+.AeroWindow .tb-bm {
+	background: url(../images/title_bottom.png) 0px -34px repeat-x;
+	height: 13px;
+	/*_background-image:none;*/
+}
+
+/*************************************************
+	AeroWindow Style active
+ *************************************************/
+.AeroWindow.active .tb-tl {
+	background-position: -28px -33px;;
+}
+
+.AeroWindow.active .tb-tm {
+	background: url(../images/title_bottom.png) 0px 0px repeat-x;
+}
+
+.AeroWindow.active .tb-tr {
+	background-position: -41px -33px;
+}
+
+.AeroWindow.active .tb-lm {
+	background-position: left top;
+}
+
+.AeroWindow.active .tb-bl {
+	background-position: -28px -65px;
+}
+
+.AeroWindow.active .tb-rm {
+	background-position: -14px 0px;
+}
+
+.AeroWindow.active .tb-br {
+	background-position: -41px -65px;
+}
+
+.AeroWindow.active .tb-bm {
+	background: url(../images/title_bottom.png) 0px -34px repeat-x;
+}
+
+/*****************************************************
+	AeroWindow Title
+ *****************************************************/
+.AeroWindow .titles {
+	position: relative;
+	text-shadow: #fff 0px 0px 5px;
+	color: #333;
+	font-family: arial;
+	padding-right: 5px;
+	font-size: 12px;
+	float: left;
+	top: -25px;
+	display: block;
+	margin-bottom: -30px;
+	cursor: default;
+}
+
+.AeroWindow .titles span {
+	padding-left: 16px;
+	line-height: 25px;
+	background: url(../images/icon.gif) no-repeat center left;
+	display: block;
+}
+
+.winBtns {
+	position: relative;
+	float: right;
+	top: -26px;
+	_top: -26px;
+	margin-bottom: -30px;
+}
+
+.AeroWindow .winBtns .win-closebtn {
+	background: url(../images/_bg.png) no-repeat -28px 0;
+	_background: url(../images/ie6/dialog_closebtn.gif) no-repeat;
+	display: block;
+	float: left;
+	height: 15px;
+	_height: 15px;
+	width: 25px;
+	cursor: default;
+	border: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.AeroWindow .winBtns .win-closebtn:hover {
+	background-position: -28px -15px;
+	_background-position: 0 -15px;
+	cursor: pointer;
+}
+/*****************************************************
+	AeroWindow Containter
+ *****************************************************/
+.AeroWindow .tb-mm-container {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+.AeroWindow .tb-mm-container .tb-mm-dialog {
+	width: auto;
+	height: auto;
+	font-family: arial;
+	font-size: 12px;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	overflow: auto;
+}
+
+.AeroWindow .tb-mm-container .dialogBtns {
+	float: right;
+	margin: 0 10px 5px 8px;
+	text-align: center;
+	text-decoration: none;
+	background: url(../images/_bg.png) no-repeat right -34px;;
+	height: 22px;
+	padding-right: 10px;
+	line-height: 22px;
+	width: auto;
+	color: #666;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.AeroWindow .tb-mm-container .dialogBtns:hover {
+	background-position: right -56px;;
+}
+
+.AeroWindow .tb-mm-container .dialogBtns span {
+	display: block;
+	line-height: 22px;
+	padding-left: 10px;
+	background: url(../images/_bg.png) no-repeat -55px -34px;;
+}
+
+.AeroWindow .tb-mm-container .dialogBtns span:hover {
+	background-position: -55px -56px;;
+}
+
+.AeroWindow .tb-mm-content.loading {
+	background: #fff url(../images/loading.gif) center center no-repeat
+		!important;
+}
+
+.tb-mm-dialog .d-icons {
+	width: 34px;
+	height: 34px;
+	display: block;
+	margin: 5px;
+}
+
+.tb-mm-dialog .d-confirm {
+	background: url(../images/_bg.png) no-repeat -56px 0;
+}
+
+.tb-mm-dialog .d-question {
+	background: url(../images/_bg.png) no-repeat -90px 0;
+}
+
+.tb-mm-dialog .d-success {
+	background: url(../images/_bg.png) no-repeat -126px 0;
+}
+
+.tb-mm-dialog .d-alert {
+	background: url(../images/_bg.png) no-repeat -162px 0;
+}
+
+.tb-mm-dialog .d-error {
+	background: url(../images/_bg.png) no-repeat -198px 0;
+}
+
+.tb-mm-dialog .d-warning {
+	background: url(../images/_bg.png) no-repeat -160px 0;
+}
+
+/*ie6 filter*/
+.tb_tl {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_lt.png',
+		sizingMethod='crop' );
+}
+
+.tb_tr {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_rt.png',
+		sizingMethod='crop' );
+}
+
+.tb_tipsbar_l,.tb_lm,.tb_btnsbar_l {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_mlm.png',
+		sizingMethod='scale' );
+}
+
+.tb_tipsbar_r,.tb_rm,.tb_btnsbar_r {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_mrm.png',
+		sizingMethod='scale' );
+}
+
+.tb_bl {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_lb.png',
+		sizingMethod='crop' );
+}
+
+.tb_br {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_rb.png',
+		sizingMethod='crop' );
+}
+
+.tb_tm {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_ct.png',
+		sizingMethod='scale' );
+}
+
+.tb_bm {
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ie6/dialog_cb.png',
+		sizingMethod='scale' );
+}

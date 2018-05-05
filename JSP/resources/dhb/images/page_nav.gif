@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>错误页面-404</title>
+    <style>
+    *{margin:0;padding:0; border:0;}
+    .error_box{
+   padding-top:230px;
+   width:700px;
+   margin:0 auto;
+   font-family: "微软雅黑"; 
+}
+.error_bg{
+    background:url(images/error_bg.png) no-repeat;
+    width:61px;
+    height:82px;
+    display:block;
+    float:left;
+    margin-right: 20px;
+}
+.error_box h2{
+    font-size: 36px;
+    color:#FF8200;
+    font-weight:normal;
+    float:left;
+}
+.error_box i{
+    font-style: normal;
+    float:left;
+    margin:30px 0 0 10px;
+}
+.error_box p{
+    float:left;
+    font-size:18px;
+    color:#b3b3b3;
+    width:600px;
+
+}
+.retun_index{
+    display:block;
+    width:170px;
+    height:40px;
+    color:#fff;
+    text-align:center;
+    background:#82C92F;
+    line-height: 40px;
+    margin:0 auto;
+    margin-top: 55px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+}
+.retun_index:hover{
+    color:#fff;
+}
+.c_text{
+    float:left;
+}
+.error_box_2{
+   padding-top:300px;
+   width:300px;
+   margin:0 auto;
+   font-family: "微软雅黑";
+}
+.error_box_2 .error_bg{
+    margin-top: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="error_box error_box_2">
+        <div class="clearfix">
+           <span class="error_bg"></span>
+           <div class="clearfix c_text"><h2>哎呀！<br>系统维护中...</h2></div>
+       </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+.index_conti {
+	width: 522px;
+	height: 266px;
+	position: relative;
+	zoom: 1;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.index_tm {
+	width: 522px;
+	_width: 519px;
+	float: left;
+	height: 532px;
+	overflow: hidden;
+	position: relative;
+}
+
+.index_hdp {
+	width: 520px;
+	height: 264px;
+	border: 1px solid #F3F3F3;
+	border-bottom: 1px solid #ededed;
+}
+
+.indextop_adv {
+	display: none
+} /*1024以下不显示*/
+@media screen and (min-widht:800px) and (max-width:1024px) {
+	.index {
+		width: 1002px;
+		clear: both
+	}
+	.index2 {
+		width: 1002px;
+		clear: both
+	}
+	.indextop {
+		float: left;
+		width: 1002px;
+		height: 535px;
+	}
+	.indextop_adv {
+		display: none
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.index {
+		width: 1202px;
+		clear: both;
+	}
+	.index2 {
+		width: 1202px;
+		clear: both;
+	}
+	.indextop {
+		width: 1202px;
+		height: 535px;
+		float: left;
+	}
+	.indextop_adv {
+		width: 200px;
+		float: left;
+		height: 532px;
+		display: block;
+		overflow: hidden;
+	}
+	.indextop_adv a img {
+		float: left;
+	}
+}
+
+.conti {
+	width: 522px;
+	float: left;
+	height: 266px;
+}
+
+.conti ul li {
+	width: 522px;
+	height: 266px;
+	float: left;
+	margin-left: 2px;
+	_margin-left: 1px;
+}
+
+.conti ul li a {
+	display: block;
+	overflow: hidden;
+	width: 259px;
+	_width: 258px;
+	height: 131px;
+	_height: 129px;
+	float: left;
+	border: 1px solid #F3F3F3;
+	margin-left: -1px;
+	_margin-left: 0px;
+	margin-top: -1px;
+}
+
+.conti ul li img {
+	float: left;
+}
+
+.conti_left {
+	position: absolute;
+	background: #000;
+	width: 40px;
+	height: 40px;
+	left: 10px;
+	top: 50%;
+	margin-top: -20px;
+	z-index: 3;
+	filter: alpha(opacity =       50);
+	-moz-opacity: 0.50;
+	opacity: 0.50;
+}
+
+.conti_left span {
+	background: url(../images/slide_left.gif) no-repeat center center;
+	width: 40px;
+	height: 40px;
+	display: block;
+	cursor: pointer;
+}
+
+.conti_right {
+	position: absolute;
+	background: #000;
+	width: 40px;
+	height: 40px;
+	right: 10px;
+	top: 50%;
+	margin-top: -20px;
+	z-index: 3;
+	filter: alpha(opacity =       50);
+	-moz-opacity: 0.50;
+	opacity: 0.50;
+}
+
+.conti_right span {
+	background: url(../images/slide_right.gif) no-repeat center center;
+	width: 40px;
+	height: 40px;
+	display: block;
+	cursor: pointer;
+}

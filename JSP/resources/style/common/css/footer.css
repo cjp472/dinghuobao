@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/***底部****/
+#footer{
+	width:1200px;
+	//height:186px;
+	border-top:1px #d9d5d6 solid;
+	margin:18px auto 18px;
+}
+#footer .i_list{
+	width:228px;
+	float:left;
+	padding:20px 0px;
+}
+#footer .i_list h2{
+	width:auto;
+	height:36px;
+	line-height:36px;
+	padding-left:40px;
+	color:#4a4a4a;
+	font-size:18px;
+}
+#footer .i_list ul li{
+	width:auto;
+	height:30px;
+	line-height:30px;
+	padding-left:40px;
+}
+

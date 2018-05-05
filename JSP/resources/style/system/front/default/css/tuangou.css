@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+.lwarp{
+	overflow:hidden;
+	background:#fbfbfb;
+	padding:14px 0px;
+}
+.ltuang{
+	width:1000px;
+	margin:0 auto;
+}
+.summary{
+	padding:20px;
+	background:#FFF;
+	height:320px;
+	border:1px #e8e8e8  solid;
+
+}
+.summary .sm_img{
+	width:460px;
+	height:320px;
+	overflow:hidden;
+	float:left;
+}
+.summary .teamStatus{
+	width:474px;
+	-height:400px;
+	-border:1px red solid;
+	float:left;
+	padding-left:20px;
+}
+
+.teamStatus .p_name{
+	font-size:18px;
+}
+.teamStatus .lprice_wrap{
+	width:502px;
+	height:68px;
+	background:#ee634c;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	color:#fff;
+	position:relative;
+	margin:16px 0px;
+}
+.teamStatus .lprice_wrap .lsj{
+	width:4px;
+	height:4px;
+	position:absolute;
+	right:0px;
+	bottom:-4px;
+	background:url(../images/tuang_2.png) no-repeat;
+}
+.teamStatus .lprice_wrap .pr{
+	height:68px;
+	line-height:68px;
+	font-size:44px;
+	display:block;
+	float:left;
+	padding-left:20px;
+
+}
+.teamStatus .lprice_wrap .pr span{
+	font-size:22px;
+}
+
+.teamStatus .lprice_wrap .discount{
+	padding:16px 20px;
+	display:block;
+	float:left
+}
+
+.teamStatus .lprice_wrap .discount .price-discount{
+	display:block;
+	width:58px;
+	height:15px;
+	line-height:15px;
+	text-align:center;
+	background:url(../images/tuang_3.png) no-repeat;
+	color:#ee634c;
+}
+.teamStatus .lprice_wrap .discount .price-original{
+	display:block;
+	padding-top:4px;
+}
+.teamStatus .lp_time{
+	background:#f9f9f9 url(../images/a6-bg.jpg) repeat-x;
+	text-align:center;
+	padding:30px 0px;
+}
+.teamStatus .lp_time div{
+	margin:14px 0px;
+}
+.teamStatus .lp_time div span{
+    background:url(../images/tuang_4.png) no-repeat left center;
+	padding-left:20px;
+}
+
+.teamStatus .lp_but{
+	margin-top:20px;
+	padding-left:100px;
+}
+.teamStatus .lp_but a{
+	display:block;
+   	width:140px;
+	height:44px;
+	text-align:center;
+	line-height:44px;
+	color:#FFF;
+	background:#ee4a4d;
+	border-radius:3px;
+	margin-right:20px;
+	float:left;
+}
+.teamStatus .lp_but a.xq{
+   background:#ba7538;
+}
+
+
+.t_left{
+	width:760px;
+	overflow:hidden;
+	float:left;
+}
+.t_left .fx_de{
+	height:40px;
+	position:relative;
+}
+.t_left .mtb{
+	width:758px;
+	height:40px;
+	background:#f9f9f9;
+	border:1px #dddddd solid;
+	font-size:14px;
+	position:absolute;
+	top:0px;
+}
+.t_left .mtb ul{
+	position:relative;
+	top:-1px;
+}
+.t_left .mtb li{
+	float:left;
+	height:42px;
+	line-height:42px;
+	padding:0px 20px;
+	border-right:1px #dddddd solid;
+	cursor:pointer;
+}
+.t_left .mtb li.current{
+	height:40px;
+	line-height:40px;
+	background:#FFF;
+	border-top:2px #e4393c solid;
+}
+
+
+.t_left .lpdm_de{
+	overflow:hidden;
+	display:none;
+	padding:20px;
+	text-align:left;
+}
+
+.t_left .fx_de_mi{
+	overflow:hidden;
+	border:1px #dddddd solid;
+	border-top:none;
+	background: #FFF;
+	padding:20px;
+}
+
+
+
+
+
+
+.t_right{
+	width:224px;
+	overflow:hidden;
+	
+	float:right;
+}
+.pd_left .pdl_g{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+	margin:10px 0px;
+}
+.pd_left  .pdl_g img{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+}
+
+.j_box{
+	width:auto;
+	overflow:hidden;
+	border:1px  #dddddd solid;
+	border-bottom:none;
+}
+.j_box .j_title{
+	width:auto;
+	height:34px;
+	line-height:34px;
+	background:#f5f5f5;
+	border-bottom:1px  #dddddd solid;
+	padding-left:10px;
+}
+.j_box ul{
+	width:auto;
+	overflow:hidden;
+}
+
+.j_box ul li{
+	height:212px;
+	overflow:hidden;
+	border-bottom:1px #dddddd solid;
+}
+.j_box ul li .p_img{
+	width:150px;
+	height:100px;
+	margin:10px auto;
+}
+.j_box ul li .p_img img{
+	width:150px;
+	height:100px;
+}
+.j_box ul li .p_name{
+	margin:0px 10px;
+	height:34px;
+	overflow:hidden;
+}
+.j_box ul li .p_wp{
+	height:48px;
+	background:#f5f5f5;
+	padding:4px 10px;
+	overflow:hidden;
+	position:relative;
+}
+
+.j_box ul li .p_wp .p_wone{
+	height:28px;
+}
+.j_box ul li .p_wp  .p_but{
+	position: absolute;
+	right:10px;
+	bottom:4px;
+	
+}
+.j_box ul li .p_wp  .p_but a{
+	display:block;
+	width:54px;
+	height:20px;
+	background:#e33a3c;
+	text-align:center;
+	line-height:20px;
+	color:#FFF;
+	border-radius:2px;
+}
+
+/***
+.j_box ul li .p_wp .qg a{
+	display:block;
+	width:54px;
+	height:20px;
+	background:#e33a3c;
+	text-align:center;
+	line-height:20px;
+	color:#FFF;
+	border-radius:2px;
+}
+.j_box ul li .p_wp span{
+	padding-left:10px;
+}
+
+.j_box ul li .p_wp .br{
+	overflow:hidden;	
+	margin-top:8px;
+}
+***/
+
+
+.lfx{
+	padding:10px 0px;
+	overflow:hidden;
+	background:#f4f4f4;
+    border:1px  #e8e8e8 solid;
+	border-top:none;
+	margin-bottom:14px;
+	-text-align:right;
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.page{
+	width:auto;
+	height:28px;
+}
+.page ul{
+	float:right;
+}
+.page li{
+	float:left;
+	margin-left:10px;
+}
+.page li a{
+	display:block;
+	height:28px;
+	line-height:28px;
+	background:url(../image/pd_list/pl_6.png) repeat-x left center;
+	color:#202020;
+	text-align:center;
+	border:1px #d0d0d0 solid;
+	padding:0px 12px;
+	border-radius:2px;
+	
+}
+.page li a.now,.page li a:hover{
+	background:#b91418;
+	color:#FFF;
+	border:1px #b91418 solid;
+}

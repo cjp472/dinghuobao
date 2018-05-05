@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*热卖商品 CSS Document */
+.pd_left .pdl_g{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+	margin:10px 0px;
+}
+.pd_left  .pdl_g img{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+}
+
+.j_box{
+	width:auto;
+	overflow:hidden;
+	border:1px  #dddddd solid;
+}
+.j_box .j_title{
+	width:auto;
+	height:34px;
+	line-height:34px;
+	background:#f5f5f5;
+	border-bottom:1px  #dddddd solid;
+	padding-left:10px;
+}
+.j_box ul{
+	width:auto;
+	overflow:hidden;
+}
+
+.j_box ul li{
+	height:236px;
+	overflow:hidden;
+	border-bottom:1px #dddddd solid;
+}
+.j_box ul li .p_img{
+	width:150px;
+	height:150px;
+	margin:10px auto;
+}
+.j_box ul li .p_img img{
+	width:150px;
+	height:150px;
+}
+.j_box ul li .p_name{
+	margin:0px 10px;
+	height:34px;
+	overflow:hidden;
+}
+.j_box ul li .p_price{
+	text-align:center;
+}
+

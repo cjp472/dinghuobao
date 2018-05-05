@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache maxElementsInMemory="1000" eternal="false"
+		timeToIdleSeconds="1200" timeToLiveSeconds="1200"
+		overflowToDisk="true" clearOnFlush="true"
+		memoryStoreEvictionPolicy="LFU">
+	</defaultCache>
+	<cache name="SimplePageFragmentCachingFilter" maxElementsInMemory="10"
+		maxElementsOnDisk="10" eternal="false" overflowToDisk="true"
+		diskSpoolBufferSizeMB="20" timeToIdleSeconds="120"
+		timeToLiveSeconds="120" memoryStoreEvictionPolicy="LFU" />
+	<cache name="access_token"
+           maxElementsInMemory="10000"
+           maxElementsOnDisk="2000000"
+           eternal="false"
+           overflowToDisk="true"
+           diskPersistent="false"
+           timeToIdleSeconds="7000"
+           timeToLiveSeconds="7000"
+           diskSpoolBufferSizeMB="50"
+           diskExpiryThreadIntervalSeconds="120"
+           memoryStoreEvictionPolicy="LFU" />
+</ehcache>

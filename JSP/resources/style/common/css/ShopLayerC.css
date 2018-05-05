@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******商家界面***/
+#ShopLayerC{
+	width:210px;
+	overflow:hidden;
+	border:1px #e6e6e6 solid;
+	background:#fff;
+	overflow:hidden;
+	float:right;
+}
+#ShopLayerC .s_name{
+	height:34px;
+	line-height:34px;
+	padding-left:10px;
+	border-bottom:1px #dddddd solid;
+	background:#f5f5f5;
+}
+#ShopLayerC .s_name .top_sc{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+#ShopLayerC  .sp_box{
+	padding:10px;
+}
+#ShopLayerC .sp_box h2{
+	font-size:14px;
+	font-weight:bold;
+	margin:6px 0px;
+}
+#ShopLayerC .sp_box ul{
+	overflow:hidden;
+	border-bottom:1px #ddd dashed;
+	padding-bottom:6px;
+}
+#ShopLayerC .sp_box ul li{
+	overflow:hidden;
+	padding:4px 0px;
+	position:relative;
+}
+
+#ShopLayerC .sp_box ul li.xx  .x_span{
+    position:absolute;
+    left:60px;
+    top:4px;
+}
+#ShopLayerC .sp_box ul li.xx  .x_strong{
+    position:absolute;
+    left:150px;
+    top:4px;
+}
+
+#ShopLayerC .sp_box .shpj strong{
+	color:#1a659e;
+}
+
+#ShopLayerC  .kkjr{
+   height:36px;
+   line-height:36px;
+   text-align:center;
+   border-top:1px #e6e6e6 solid;
+}
+#ShopLayerC  .kkjr a{
+	 color:#005ea6;
+}
+

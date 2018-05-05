@@ -1,0 +1,47 @@
+.seller-name h5{
+	margin: 8px auto auto 40px;
+}
+
+.seller-name h5 a{
+	margin-left: 10px;
+}
+
+.focus dd a {
+	color: #0579C6;
+}
+
+.focus dd b {
+	color: #FE6603;
+}
+
+.content ul li a {
+	color: #0579C6;
+}
+
+.content ul li a strong {
+	font: 10px/14px Tahoma;
+	color: #FFF;
+	background-color: #28B779;
+	text-align: center;
+	display: none;
+	min-width: 16px;
+	height: 14px;
+	padding: 1px 0px;
+	border-radius: 8px;
+	position: absolute;
+	z-index: 1;
+	top: -8px;
+	right: -8px;
+}
+
+.content dl dd a {
+	color: #0579C6;
+}
+
+#handletable tr td{
+	text-align:left;
+}
+
+#handletable #opertitle td{
+	text-align:center;
+}

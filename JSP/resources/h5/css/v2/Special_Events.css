@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.Special_Events{height:auto; overflow:hidden;}
+.banner{height:auto; overflow:hidden; text-align:center; background:#b00e0b;}
+.banner img{width:720px; max-width:100%; height:auto;}
+.Special_Events_top{height:auto; overflow:hidden; text-align:center; background:#b00e0b;}
+.Special_Events_top img{width:720px; max-width:100%; height:auto;}
+.Special_Events_bottom{height:auto; overflow:hidden; text-align:center; background:#b00e0b;}
+.Special_Events_bottom img{width:720px; max-width:100%; height:auto;}

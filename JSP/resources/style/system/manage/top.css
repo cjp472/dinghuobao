@@ -1,0 +1,142 @@
+﻿@charset "utf-8";
+*
+	{
+	margin: 0px;
+	padding: 0px;
+}
+	body, html
+	{
+	background: #fff;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+}
+ul
+	{
+	list-style: none;
+}
+a
+	{
+	text-decoration: none;
+}
+#top
+	{
+	width: 760px;
+	height: 200px;
+	-border: 1px red solid;
+	margin: 0 auto;
+	background: url(../../../image/logo.jpg) no-repeat left center;
+	color: #000;
+	line-height: 300px;
+	padding-left: 200px;
+	position: relative;
+}
+	
+#top img
+	{
+	position: absolute;
+	left: 200px;
+	top: 110px;
+}
+	
+#main
+	{
+	width: auto;
+	overflow: hidden;
+	background: #2a598f;
+}
+#m_box
+	{
+	width: 960px;
+	height: 360px;
+	margin: 0 auto;
+}
+.left_box
+	{
+	width: 400px;
+	height: 360px;
+	float: left;
+	background: url(../../../image/xdsw_3.png) no-repeat left center;
+}
+.left_box .wenz
+	{
+	width: auto;
+	height: 360px;
+	background: url(../../../image/xdsw_4.png) no-repeat right center;
+}
+
+.right_box
+	{
+	width: 500px;
+	height: 360px;
+	float: right;
+	background: url(../../../image/xdsw_2.png) no-repeat center center;
+	position: relative;
+	font-family: "微软雅黑";
+}
+.right_box h2
+	{
+	position: absolute;
+	left: 100px;
+	top: 10px;
+	font-weight: normal; /*	width:270px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px #dadada solid;*/
+}
+.right_box table
+	{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+.right_box table td
+	{
+	padding: 10px 0px;
+	font-size: 14px;
+}
+.right_box table td .text
+	{
+	width: 200px;
+	padding: 6px 2px;
+	border: 1px #dadada solid;
+}
+.right_box table td .login_but
+	{
+	padding: 7px 28px;
+	text-align: center;
+	background: #528ccc;
+	color: #FFf;
+	margin: 10px 0px;
+	float: right;
+}
+.right_box table td div
+	{
+	width: 100px;
+	height: 24px;
+	float: left;
+	position: relative;
+	top: 18px;
+}
+.right_box table td div span
+	{
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	font-size: 12px;
+}
+.footer
+	{
+	width: 960px;
+	height: 100px;
+	border-top: 1px #dadada solid;
+	margin: 80px auto;
+	padding-top: 30px;
+}
+.footer p
+	{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+

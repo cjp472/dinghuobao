@@ -1,0 +1,232 @@
+
+
+/*弹窗*/
+.mod-dialog-bg{
+	background: #000;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	z-index: 1000;
+	display: none;
+}
+
+.mod-dialog{
+	background-color: #fff;
+    min-width: 482px;
+    position: absolute;
+    z-index: 1001;
+
+    left: 50%;
+    margin-left: -240px;
+
+    border-radius: 5px;
+    display: none;
+    overflow: hidden;
+    border: solid 1px #E5E5E5;
+    box-shadow: 1px 1px 50px rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 1px 50px rgba(0,0,0,.3);
+    -moz-box-shadow: 1px 1px 50px rgba(0,0,0,.3);
+    
+}
+.mod-dialog .dialog-nav{
+	width: 100%;
+    background: #F4F5F9;
+    height: 46px;
+    border-bottom: 1px solid #E8E8E9;
+	*position: absolute;
+	*width:100%;
+	*left:0;
+	*top:0px;
+}
+.mod-dialog .dialog-title{
+	margin-left: 20px;
+    font-size: 14px;
+    line-height: 46px;
+    color: #666;
+}
+.mod-dialog .dialog-close{
+	
+}
+.mod-dialog .dialog-main{
+	font-size: 14px;
+	padding:20px;
+	text-align: center;
+	*margin-top: 47px;
+}
+
+
+
+.mod-dialog .dialog-content{
+	 font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+.mod-dialog .content-title{
+	line-height: 24px;
+	font-size: 18px;
+	padding: 40px 0 40px 155px;
+	background: url(../images/dialog_alert.png) 30px 20px no-repeat;
+}
+.mod-dialog .dialog-console{
+	padding-top: 20px;
+}
+.mod-dialog .dialog-console a{
+	
+	
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    width: 120px;
+}
+.mod-dialog .dialog-console a:hover{
+	text-decoration: none;
+}
+.mod-dialog .dialog-console .console-btn-confirm{
+	border: solid 1px #E8E8E8;
+    color: #82c92f;
+    border-radius: 5px;
+	
+}
+.mod-dialog .dialog-console .console-btn-cancel{
+	background: #eee;
+    color: #999;
+    margin-left: 12px;
+}
+/*异常提示*/
+.dialog-war {
+    background-color: #fff;
+    min-width: 482px;
+    position: absolute;
+    z-index: 1001;
+    left: 50%; 
+    top: 300px; 
+    z-index: 1024;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.dialog-war .dialog-bar {
+   width: 100%;
+    background: #F4F5F9;
+    height: 46px;
+    border-bottom: 1px solid #E8E8E9;
+    padding-left: 20px;
+    line-height: 43px;
+}
+
+
+
+
+
+.dialog-war .dialog-content {
+     font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dialog-war .dialog-content p {
+    margin: 30px 0 32px;
+    padding: 0 30px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #27292B;
+    text-align: center;
+}
+
+.dialog-war .dialog-console {
+    padding: 0 0 10px;
+    background: #FFF;
+    overflow: hidden;
+    *zoom: 1;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*浮层*/
+.mod-pop {
+	position: absolute;
+	font-size: 14px;
+	width: 276px;
+	height: 142px;
+	background: #fff;
+	border: solid 1px #a1a1a1; 
+	-webkit-box-shadow: 0px 0px 5px #a1a1a1;
+  	-moz-box-shadow: 0px 0px 5px #a1a1a1;
+	box-shadow: 0px 0px 5px #a1a1a1;
+	z-index: 1000;
+}
+.mod-pop .pop-nav{
+	line-height: 31px;
+	background: #f3f3f3;
+	color:#666;
+	padding:0 10px;
+	font-weight: bold;
+}
+
+.mod-pop .pop-close{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top:6px;
+	right:6px;
+	background: url(../images/dialog_btn_bg.png) no-repeat -109px 0;
+}
+.mod-pop .pop-close:hover{
+	background-position: -86px 0;
+}
+.mod-pop .pop-main{
+	line-height: 24px;
+	padding:15px 10px 10px; 
+	text-align: center;
+}
+
+.mod-pop .pop-console{
+	margin-top: 20px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 16px;
+}
+.mod-pop .pop-btn-green{
+	float: left;
+	display: block;
+	width: 120px;
+	height: 36px;
+	margin-right: 16px;
+	background: url(../images/dialog_btn_bg.png) no-repeat 0 -24px;
+	color:#fff;
+}
+.mod-pop .pop-btn-green:hover{
+	background-position: 0 -100px
+}
+.mod-pop .pop-btn-gray{
+	float: left;
+	display: block;
+	width: 120px;
+	height: 36px;
+	background: url(../images/dialog_btn_bg.png) no-repeat 0 -62px;
+	color:#999;
+}
+.mod-pop .pop-btn-gray:hover{
+	background-position: 0 -138px
+}
+
+
+
+

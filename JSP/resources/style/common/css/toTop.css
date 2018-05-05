@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+/*****侧边栏****/
+#toTop{
+	width:66px;
+	overflow:hidden;
+	border:1px #dedede  solid;
+	border-radius:4px;
+	background: #fbfbfb;
+	position: fixed;
+	right:0px;
+	top:200px;
+	z-index:100px;
+	box-shadow: 0px 0px 3px #888888;
+}
+#toTop .tp_mian{
+	width:auto;
+	height:238px;
+	overflow:hidden;
+	-border:1px red solid;
+}
+
+#toTop li{
+	overflow:hidden;
+	border-bottom:1px #dedede  solid;
+}
+#toTop li a{
+	display:block;
+	width:auto;
+	height:58px;
+	padding:16px 0px 4px 0px;
+}
+#toTop li a:hover{
+	background:#cd0000;
+	color:#FFF;
+	text-decoration:none;
+}
+#toTop li a:hover  .p_img{
+	background:url(../../../image/itop_1.png) no-repeat 0px -25px;
+}
+
+#toTop li .p_img{
+	width:15px;
+	height:25px;
+	background:url(../../../image/itop_1.png) no-repeat;
+	margin:0px auto;
+}
+
+#toTop li .p_name{
+	text-align:center;
+	line-height:30px;
+}
+
+
+#toTop .close{
+	width:auto;
+	height:25px;
+	padding-top:9px;
+	text-align:center;
+	cursor:pointer;
+	display:none;
+}
+#toTop .close img{
+    transition:0.3s;
+}
+#toTop .close:hover img{
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);		/* IE 9 */
+	-webkit-transform: rotate(360deg);	/* Safari and Chrome */
+	-o-transform: rotate(360deg);		/* Opera */
+	-moz-transform: rotate(360deg);		/* Firefox */
+}
+
+
+
+#toTop .jsq .p_img{
+	width:28px;
+	height:28px;
+	background:url(../../../image/itop_2.png) no-repeat;
+}
+#toTop .jsq:hover .p_img{
+	width:28px;
+	height:28px;
+	background:url(../../../image/itop_2.png) no-repeat 0px -28px;
+}
+
+
+#toTop .wdgz .p_img{
+	width:28px;
+	height:26px;
+	background:url(../../../image/itop_4.png) no-repeat;
+}
+#toTop .wdgz:hover .p_img{
+	width:28px;
+	height:26px;
+	background:url(../../../image/itop_4.png) no-repeat 0px -26px;
+}
+
+#toTop .shop .p_img{
+	width:30px;
+	height:26px;
+	background:url(../../../image/itop_5.png) no-repeat;
+}
+#toTop .shop:hover .p_img{
+	width:28px;
+	height:30px;
+	background:url(../../../image/itop_5.png) no-repeat 0px -26px;
+}
+
+#toTop  .fhdb{
+	display:none;
+}

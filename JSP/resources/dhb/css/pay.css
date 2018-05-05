@@ -1,0 +1,219 @@
+.payhead{
+    height: 94px;
+    border-bottom: 1px solid #e1e2e3;
+    background: #fff;
+}
+.payhead .wrapper ,.paysection .wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+.payhead .logo {
+    float: left;
+    margin: 28px 0 0;
+    cursor: pointer;
+}
+.payhead .tip {
+    float: right;
+    margin: 30px 0 0;
+}
+.payhead .tip > li:first-child {
+    width: 140px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.payhead .tip li {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #797979;
+}
+.payhead .tip li img {
+    vertical-align: top;
+}
+.payhead .tip li ~ li {
+    border-left: 1px solid #d8d9da
+}
+.payhead .tip li:hover .tippop {
+    display: block;
+}
+.payhead .wrapper {
+    position: relative;
+}
+.payhead .tippop {
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 140px;
+    text-align: center;
+    top: 26px;
+    right: 78px;
+    z-index: 9;
+    box-shadow: #999 0 0 3px;
+}
+.payhead .tippop li ~ li {
+    border-left: none;
+}
+.payhead .tippop li {
+    height: 24px;
+    line-height: 24px;
+    color: #31373c;
+    cursor: pointer;
+    font-size: 12px;
+    float: none;
+}
+.payhead .tippop li a {
+    color: #31373c;
+}
+.payhead .tippop li:hover {
+    color: #23ac38;
+    background-color: rgb(247, 247, 247);
+}
+.payhead .tippop li:hover a{
+    color: #23ac38;
+}
+.paysection .title {
+    position: relative;
+}
+.paysection .title h4 {
+    color: 424242;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.paysection .title h4 em {
+    color: #f23d33;
+    font-style: normal;
+}
+/*淇敼 start*/
+.paysection .title p, .paysection .title h5 {
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.paysection .title h5 {
+    display: none;
+}
+.paysection .title p + p {
+    font-size: 12px;
+    color: #424242;
+    position: absolute;
+    right: 0;
+    /*bottom: 20px;*/
+    top: -11px;
+}
+.paysection .title p + p + p {
+    font-size: 12px;
+    color: #424242;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #3879d9;
+}
+.paysection .title p + p + p span {
+    margin-top: 7px;
+    display: block;
+    float: right;
+    margin-left: 3px;
+    width: 0;
+    height: 0;
+    color: #3879d9;
+    border-top: 5px solid;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+}
+.paysection .title p + p + p span + span {
+    border-bottom: 5px solid;
+    border-top: 0 solid #fff;
+    display: none;
+}
+.paysection .title p + p span {
+    font-size: 20px;
+    color: #f23d33;
+    font-weight: bold;
+}
+/*淇敼end*/
+.paysection .title p ~ p span em {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+}
+.paysection .content {
+    box-shadow: #e5e5e5 0 0 20px;
+    box-shadow: rgba(0,0,0,.12) 0 0 20px;
+    *border: 1px solid #e5e5e5;
+    /*height: 100px;*/
+    margin-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+.paysection .content .payoption {
+    text-align: center;
+}
+.paysection .content .payoption ul {
+    padding: 70px 0 0 160px;
+}
+.paysection .content .payoption ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.paysection .content .payoption li {
+    border: 1px solid #ececec;
+    width: 252px;
+    height: 178px;
+    line-height: 178px;
+    /*display: inline;*/
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.paysection .content .payoption li ~ li {
+    margin: 0 0 0 80px;
+}
+.paysection .content .payoption li.option {
+    border: 2px solid #e83336;
+    width: 250px;
+    height: 176px;
+    line-height: 176px;
+}
+.paysection .content .payoption li em.choice {
+    position: absolute;
+    width: 49px;
+    height: 36px;
+    top: -6px;
+    left: 10px;
+    background: url('../images/paytipicon1.png');
+}
+.paysection .content .payoption li.option em.choice {
+    top: -7px;
+    left: 9px;
+}
+.paysection .content .payoption li em.selected{
+    display: none;
+    background: url('../images/paytipicon0.png');
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.paysection .content .payoption li.option em.selected {
+    display: block;
+}
+.paysection .content .payoption input {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 252px;
+    height: 59px;
+    background: #e83336;
+    display: block;
+    margin: 60px auto 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}

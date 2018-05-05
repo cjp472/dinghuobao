@@ -1,0 +1,44 @@
+/*默认底部*/
+footer {display: block;position: relative;z-index: 5;left: 0;right: 0;width: 100%;padding-top: 2.2rem;}
+.nctouch-footer-wrap { position: relative; z-index: 5; bottom: 2.2rem; left: 0; right: 0; width: 100%; background-color: #F5F5F5; border-top: solid 1px #EEE; }
+.nctouch-footer-wrap .nav-text {background-color: #fff;  padding: 0.6rem 0; font-size: 0; text-align: center; border-bottom: solid 0.05rem #EEE; }
+.nctouch-footer-wrap .nav-text a { display: inline-block !important; width: 18%; height: 0.6rem; font-size: 0.6rem; line-height: 0.6rem; color: #555 !important; border-left: solid 0.05rem #EEE; }
+.nctouch-footer-wrap .nav-text a:first-child { border-left: 0; }
+.nctouch-footer-wrap .nav-pic { padding: 0.3rem 2rem; font-size: 0; text-align: center; border-bottom: solid 0.05rem #EEE; }
+.nctouch-footer-wrap .nav-pic a { display: inline-block !important; width: 33.33%; font-size: 0.45rem; color: #999 !important; text-align: center; }
+.nctouch-footer-wrap .nav-pic a.touch { color: #333 !important; }
+.nctouch-footer-wrap .nav-pic a span { display: inline-block; width: 1.2rem; height: 1.2rem; margin: 0 auto; padding: 0.15rem; border: solid #CCC 1px; border-radius: 100%; }
+.nctouch-footer-wrap .nav-pic a.touch span { border-color: #555; }
+.nctouch-footer-wrap .nav-pic a i { display: block; width: 100%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: 80%; opacity: 0.4;}
+.nctouch-footer-wrap .nav-pic a.app i { background-image: url(../../images/_usercenter/foot_app.png);}
+.nctouch-footer-wrap .nav-pic a.touch i { background-image: url(../../images/_usercenter/foot_touch.png); opacity: 0.8;}
+.nctouch-footer-wrap .nav-pic a.pc i { background-image: url(../../images/_usercenter/foot_pc.png);}
+.nctouch-footer-wrap .copyright { height: 1.6rem; font-size: 0.45rem; line-height: 1.6rem; color: #555; text-align: center; text-shadow: 1px 1px 0 rgba(255,255,255,1) }
+.nctouch-footer-wrap .copyright a { display: inline-block!important; margin: 0 0.05rem; font-size: 0.45rem; font-weight: 600; color: #555; }
+
+/*底部固定下方*/
+footer.bottom .nav-text, 
+footer.bottom .nav-pic { display: none; }
+footer.bottom .nctouch-footer-wrap { background-color: transparent; border: none; }
+.footnav { min-width:320px; background:#e5e5e5; border-top: 1px solid #d5d5d5; bottom: -0.1rem; font-size: 0.28rem; height: 2.4rem; position: fixed; width: 100%; z-index: 6;}
+.footnav ul { font-size: 0;}
+.footnav ul li { vertical-align: top; display: inline-block; text-align: center; width: 20%; padding: 0.2rem 0 0.2rem 0;}
+.footnav ul li a { display: block; position: relative;}
+.footnav ul li a em { background-color: #ED5564; width: 0.3rem; height: 0.3rem; border-radius: 100%; position: absolute; top: -0.15rem; right: 0.85rem;}
+.footnav ul li i { vertical-align: top; display: inline-block; width: 1rem; height: 1rem; margin: 0 auto 0.1rem auto;}
+i.home { background-image: url(../../images/_usercenter/home_b.png); background-size: cover; opacity: 0.5;}
+i.categroy { background-image: url(../../images/_usercenter/browse_list.png); background-size: cover; opacity: 0.5;}
+i.search { background-image: url(../../images/_usercenter/search_ico.png); background-size: cover; opacity: 0.5;}
+i.cart { background-image: url(../../images/_usercenter/cart_b.png); background-size: cover; opacity: 0.5;}
+i.member { background-image: url(../../images/_usercenter/member_b.png); background-size: cover; opacity: 0.5;}
+/*加红*/
+i.home2 { background-image: url(../../images/_usercenter/home_b_2.png); background-size: cover; opacity: 1;}
+i.categroy2 { background-image: url(../../images/_usercenter/browse_list_2.png); background-size: cover;opacity: 1;}
+i.search2 { background-image: url(../../images/_usercenter/search_ico_2.png); background-size: cover;opacity: 1;}
+i.cart2 { background-image: url(../../images/_usercenter/cart_b_2.png); background-size: cover;opacity: 1;}
+i.member2 { background-image: url(../../images/_usercenter/member_b_2.png); background-size: cover;opacity: 1;}
+
+.footnav ul li p { font-size: 0.55rem; color: #888; line-height: 1rem; height: 1rem;}
+.footnav ul li sup {position:absolute; top:-8px; right:calc(50% - 25px);color:#F00; border-radius: 10px;padding: 2px 5px;background-color:#f00;color:#fff;line-height: 10px;font-size:10px;}
+.footnav ul li a.current p {color: #D91801;}
+

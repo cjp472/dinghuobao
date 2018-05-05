@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+#all_nav{
+	display:none;
+}
+#pd_mian{
+	width:1200px;
+	margin:10px auto;
+	overflow:hidden;
+}
+
+.pd_left{
+	width:208px;
+	overflow:hidden;
+	float:left;
+}
+.pd_left .mc{
+	width:auto;
+	overflow:hidden;
+	border:1px  #dddddd solid;
+	border-top:2px #777576 solid;
+	border-bottom:none;
+}
+.pd_left .mc .l_tit{
+	width:auto;
+	height:36px;
+	border-bottom:1px  #dddddd solid;
+	background:#f5f5f5;
+	line-height:36px;
+	padding-left:10px;
+}
+
+.pd_left .mc  h3.p_t{
+	width:auto;
+	height:26px;
+	line-height:26px;
+	padding-left:30px;
+	background: url(../images/pd_list/pl_1.png) no-repeat 10px center;
+	cursor:pointer;
+	margin-top:6px;
+}
+
+.pd_left .mc .item{
+	width:auto;
+	overflow:hidden;
+	border-bottom:1px  #dddddd solid;
+	padding:6px 0px 6px 30px;
+	display:none;
+}
+.pd_left .mc .item  li{
+	width:auto;
+	height:26px;
+	line-height:26px;
+}
+.pd_left .mc  ul{
+	display:block;
+}
+.pd_left .mc  h3.now{
+	background: url(../images/pd_list/pl_2.png) no-repeat 10px center;
+}	
+
+.pd_left .pdl_g{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+	margin:10px 0px;
+}
+.pd_left  .pdl_g img{
+	width:auto;
+	height:252px;
+	overflow:hidden;
+}
+
+.jqian span{
+	padding-right:14px;	
+}
+
+
+
+
+
+
+
+.pd_right{
+	width:978px;
+	overflow:hidden;
+	float:right;
+	padding-bottom:40px;
+}
+.pd_right #select{
+	width:auto;
+	overflow:hidden;
+	border:1px #dddddd solid;
+	border-top:2px #e1272c solid;
+}
+.pd_right #select h1{
+	height:34px;
+	line-height:34px;
+	background:#f5f5f5;
+	border-bottom:1px  #dddddd solid;
+	padding-left:10px;
+}
+
+.pd_right #select .i_attr{
+	width:auto;
+	overflow:hidden;
+	border-top:1px #dddddd solid;
+	padding:12px 0px;
+}
+.pd_right #select .i_attr .a_key{
+	width:80px;
+	text-align: right;
+	line-height:25px;
+	font-size:14px;
+	font-weight:bold;
+}
+.pd_right #select .i_attr .a_values{
+	width:870px;
+	overflow:hidden;
+}
+.pd_right #select .i_attr .a_values li{
+	float:left;
+	height:20px;
+	padding-right:30px;
+	padding-top:5px;
+}
+.pd_right #select .i_attr .a_values a{
+	color:#2667a7;
+	white-space:nowrap; 
+}
+
+
+#filter{
+	height:24px;
+	border:1px  #dddddd solid;
+	padding:5px 8px;
+	overflow:hidden;
+	background:#f5f5f5;
+	margin:10px 0px;
+	position:relative;
+}
+#filter dl,#filter dt,#filter dd{
+	line-height:24px;
+	float:left;
+	
+}
+#filter dd{
+	height:24px;
+	left:24px;
+	border:1px #dddddd solid;
+	margin-right:6px;
+	background:#fff;
+}
+#filter dd a{
+	display:block;
+	padding:0px 10px;
+}
+#filter dd.curr{
+	background:#e1272c;
+}
+#filter dd.curr a{
+	color:#fff;
+}
+
+#filter .address{
+	position:absolute;
+	left:400px;
+	top:7px;
+}
+
+#filter .qhk{
+	width:120px;
+	-border:1px #000 solid;
+	position:absolute;
+	right:10px;
+	top:4px;
+	
+}
+#filter .qhk div{
+	width:54px;
+	height:24px;
+	border:1px #dddddd solid;
+	float:left;
+	text-align:center;
+	line-height:24px;
+	cursor:pointer;
+	background:#ffffff ;
+}
+#filter .qhk div span{
+	padding-left:20px;
+	overflow:hidden;
+}
+#filter .qhk .lb span{
+	background:url(../images/pd_list/pl_5.png) no-repeat left 3px;
+}
+#filter .qhk .sm span{
+	background:url(../images/pd_list/pl_7.png) no-repeat left 3px;
+}
+#filter .qhk .lb .hover{
+	background:url(../images/pd_list/pl_5.png) no-repeat left -19px;
+	color:#e1272c;
+}
+#filter .qhk .sm .hover{
+	background:url(../images/pd_list/pl_7.png) no-repeat  left -19px;
+	color:#e1272c;
+}
+
+
+/***商品列表***/
+#plist{
+	overflow:hidden;
+	-border:1px #000 solid;
+	margin-bottom:40px;
+}
+#plist .list_h{
+	width:1000px;
+	overflow:hidden;
+}
+#plist  .list_h li{
+	width:206px;
+	height:250px;
+	float:left;
+	padding:18px 14px;
+	border:1px #fff solid;
+	margin:0px 10px 10px 0px;
+}
+#plist  .list_h li:hover{
+	border:1px #dadada solid;
+}
+#plist  .list_h li .p_img{
+	height:137px;
+	overflow:hidden;
+	text-align:center;
+}
+#plist  .list_h li .p_img{
+	width:206px;
+	height:137px;
+}
+#plist  .list_h li .p_price{
+	line-height:20px;
+	margin:8px 0px;
+}
+#plist  .list_h li .p_name{
+	height:36px;
+	line-height:18px;
+	overflow:hidden;
+	padding:5px 0px;
+}
+#plist  .list_h li .stock{
+	height:20px;
+	line-height:20px;
+}
+#plist  .list_h li .stock a{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+.class_more,.class_income{
+   width:34px;
+   top:53px;
+   right:10px;
+   position:absolute;
+   margin:0px;
+}
+
+.class_more{
+   background:url(../images/lms.png) no-repeat right -8px;
+}
+
+.class_income{
+   background:url(../images/lms.png) no-repeat right 8px;
+}

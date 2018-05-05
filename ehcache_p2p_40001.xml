@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	
+    <!-- 指定除自身之外的网络群体中其他提供同步的主机列表，用“|”分开不同的主机 -->  
+    <cacheManagerPeerProviderFactory  
+        class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"  
+        properties="peerDiscovery=manual,rmiUrls=//localhost:40002/SimplePageFragmentCachingFilter" />  
+    
+    <!-- 配宿主主机配置监听程序，来发现其他主机发来的同步请求 -->  
+    <cacheManagerPeerListenerFactory  
+        class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory"  
+        properties="port=40001,socketTimeoutMillis=120000" />
+
+	<defaultCache maxElementsInMemory="1000" eternal="false"
+		timeToIdleSeconds="1200" timeToLiveSeconds="1200"
+		overflowToDisk="true" clearOnFlush="true"
+		memoryStoreEvictionPolicy="LFU">
+	</defaultCache>
+	<cache name="SimplePageFragmentCachingFilter" maxElementsInMemory="10"
+		maxElementsOnDisk="10" eternal="false" overflowToDisk="true"
+		diskSpoolBufferSizeMB="20" timeToIdleSeconds="120"
+		timeToLiveSeconds="120" memoryStoreEvictionPolicy="LFU" >
+		 <cacheEventListenerFactory class="net.sf.ehcache.distribution.RMICacheReplicatorFactory" 
+              properties="replicateAsynchronously=true, replicatePuts=true, replicateUpdates=true,replicateUpdatesViaCopy= true, replicateRemovals= true " />
+		</cache>
+</ehcache>

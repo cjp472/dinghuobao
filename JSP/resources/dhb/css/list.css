@@ -1,0 +1,88 @@
+﻿.g-info li div{ margin-left:70px;}
+.safeguard{ display:inline-block;width:424px;}
+.g-info li div .starSmall{ margin-left:8px;}
+.g-info li div .starSmall,.g-pj{ display:inline-block; vertical-align:middle;}
+.g-pj a{ color:#005ea7;}
+.g-pj a:hover{ color:#be0a00;}
+
+ span.line{ width:1px; height:15px; border-right:1px solid #eee; margin:0 8px; overflow:hidden; padding:0; }
+.ftg{ color:#999;}
+ .starSmall span{ padding:0;}
+.g-info li.g-pf{ padding-bottom:20px; border-bottom:1px solid #eee; margin-bottom:10px;}
+.g-address{ display:inline-block; *display:inline; *zoom:1; position:relative; z-index:10; text-indent: 0px; }
+ .g-address>span{ position:relative; padding:2px 17px 2px 8px; border:1px solid #FFF; border-bottom:0; color:#005ea7;}
+.g-address>span i{ position:absolute; top:8px; right:5px; width:7px; height:4px; overflow:hidden; background:url(../images/icon-list.png) no-repeat; background-position:-130px 0;}
+ .g-address>span.hover{ border:1px solid #ccc; border-bottom:0px solid #FFF; padding:2px 17px 2px 8px; z-index:10; background:#FFF;}
+ .g-address>span.hover i{ background-position:-137px 0;}
+.g-address-box{ display:none; position:absolute; left:-103px; top:21px; width:320px; border:1px solid #ccc; background:#FFF; z-index:9; padding:5px 0; }
+.g-info li .g-address-box li{ padding:6px 0;}
+.a-province{ overflow:hidden;}
+.a-province li,.a-city ul li{ float:left; height:20px; width:20%;}
+.a-province li span,.a-city ul li span{ display:block; padding:3px 5px; margin:0 2px; text-align:center; cursor:pointer;}
+.a-province li span:hover,.a-province li.hover span,.a-city ul li span:hover{ background:#be0a00; color:#FFF;}
+.a-city{ display:none; border:1px solid #ccc; border-left:0; border-right:0; background:#f7f7f7; padding:5px 0;}
+.a-city ul{ overflow:hidden;}
+.a-city ul li{ float:left; height:20px; width:20%;}
+.g-wight em{ font-style:normal; color:#be0a00; padding-right:6px; font-weight:400; }
+.g-info li.g-attr{ height:24px;}
+.g-attr-item{ margin-left:70px;padding-left:6px;}
+.g-attr-item a{ display:inline-block; position:relative; border:2px solid #eee; background:#FFF; padding:3px 5px; vertical-align:middle; margin-right:5px;}
+.g-attr-item a.cur{border:2px solid #be0a00; padding:2px 4px; }
+.g-attr-item a i{ position:absolute; display:block; width:10px; height:10px; overflow:hidden; right:-1px; bottom:-1px;  background:url(../images/icon-goods.png) no-repeat; background-position:-495px -110px;}
+.g-attr-item a.disable{border:1px solid #eee; color:#eee; cursor:default;}
+
+.addCart-box{ margin-top:20px; border:1px solid #eee; overflow:hidden;}
+.addCart-l{ float:left; width:611px; }
+.addCart-l .left{border-right:1px solid #eee; min-height:260px;}
+.addCart-r{ float:right; width:346px; }
+.addCart-r .right{ min-height:260px;}
+.addTit{ padding:8px 0; background:#f2f2f2; border-bottom:1px solid #eee; overflow:hidden;}
+.addTit li{ float:left; width:122px; font-weight:700; text-align:center; color:#999;}
+.addTit li.item1{ text-align:left;}
+.addTit li span{ display:block;}
+.addTit li.item1 span{ padding-left:10px;}
+.cart-list-ul{ border-bottom:1px dotted #ccc; overflow:hidden; padding:5px 0;}
+.cart-list-ul li{ display:inline-table;word-break:break-all;word-wrap:break-word;overflow:hidden;}
+.add-name{ float:left; width:20%; vertical-align:top; padding-top:10px;}
+.add-name span{ display:block; padding-left:10px; font-weight:700;}
+.add-date{ float:left; width:80%;}
+.add-list-item{ overflow:hidden;}
+.add-list-item li{ float:left; display:inline-table; text-align:center; width:23%; padding:6px 0; line-height:21px;word-break:break-all;word-wrap:break-word;overflow:hidden;}
+.add-list-item .price{ color:#be0a00;}
+.a-stock a,.a-stock input{ display:inline-block; margin:0 1px; vertical-align:middle;}
+.a-stock a{ width:20px; height:21px; background:url(../images/icon-goods.png) no-repeat; }
+.a-stock a.minus{background-position:-120px -50px;}
+.a-stock a.minus:hover{background-position:-140px -50px;}
+.a-stock a.plus{background-position:-160px -50px;}
+.a-stock a.plus:hover{background-position:-180px -50px;}
+.a-stock .txt{ width:40px;border:1px solid #bdbdbd; background:#FFF; padding: 2px 3px; line-height:15px; height:15px;}
+.a-stock .txt:focus{border:1px solid #be0a00;}
+
+
+/* 解决友谊 包整开放平台规则显示问�? 2016-11-22 */
+.leftMenu ul li{height:auto}
+.leftMenu ul li a{background:none}
+/*单品页修�? Date:2014-09-17*/
+.searchList02 .sListDiv{margin: 10px 7px;}
+.g-info li div em{ display:inline-block; margin:4px 4px 0 5px; font-weight:400;padding:0 3px;}
+.g-info li div em.red{ background:#be0a00;color:#fff;}
+.g-info li div em.green{ background:#6cb247;color:#fff;}
+.g-info li div em.blue{ background:#7fbda9;color:#fff;}
+.g-info li div em.gray{ background:#a3b4cc;color:#fff;}
+.g-info li div b{ display:inline-block; margin-left:5px; margin-top:4px; font-family:"Verdana";}
+/* 发货地址 */
+ .g-address>span{cursor:pointer}
+ .open >span{ border:1px solid #ccc; border-bottom:0px solid #FFF; padding:2px 17px 2px 8px; z-index:10; background:#FFF;}
+ .open >span i{ background-position:-137px 0;}
+.open .m-address-tt{border:1px solid #ccc; border-bottom:0px solid #FFF; padding:2px 17px 2px 8px; z-index:10; background:#FFF;}
+.open .m-address-tt i{ background-position:-137px 0;}
+.m-address{display:none;border: 1px solid #ccc; background-color: #fff; padding: 10px; width: 420px;position:absolute;top:19px;left:-120px;}
+.open .m-address{display:block;}
+.m-address .close{width:11px;height:11px;background:url(../images/pop-icon.png) no-repeat;display:block;position:absolute;top:10px;right:10px;text-indent:-9999px;}
+.m-address .ma-hd{width: 100%; zoom: 1; border-bottom: 1px solid #82C92F; height: 21px; _overflow: hidden; margin-top: 10px;}
+.m-address .ma-hd .tt-item{ height: 20px; line-height: 20px; color: #3c3c3c; font-size: 12px; padding: 0 5px 0 5px; border-right: 1px solid #ccc; border-top: 1px solid #ccc; border-left: 1px solid #ccc; margin-right: 5px; float: left; cursor: pointer; background-color: #fff;}
+.m-address .ma-hd .tt-item.selected{    color: #000; position: relative; height: 21px; border-right: 1px solid #82C92F; border-top: 1px solid #82C92F; border-left: 1px solid #82C92F;}
+.m-address .ma-bd{    width: 100%; zoom: 1;  _overflow: hidden; margin-top: 10px;}
+.m-address .ma-bd li{ cursor:pointer; line-height:18px; margin: 5px; float: left; border: 1px solid #fff; padding: 0 10px; color: #333;}
+.m-address .ma-bd li:hover,.m-address .ma-bd li.selected{ border: 1px solid #82C92F; background:#82C92F; color:#fff;}
+.shopcart-address{left:-237px;}
